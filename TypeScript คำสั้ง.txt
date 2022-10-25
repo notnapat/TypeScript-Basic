@@ -1,0 +1,3 @@
+	ติดตั้ง TS บน cmd ในวินโดว์ หรือ cmd ใน vs code ก็ได้
+npm install -g typescript == ติดตั้ง TS
+tsc -v == ตรวจสอบเวอร์ชั่น TS
