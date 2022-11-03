@@ -42,9 +42,9 @@ console.log(aaa5("bbb"))
 
 // Function Overloading == รูปแบบใช้หาผลลัพ
 // parseInt() == ใช้หาผลลัพ + - * % ของ string กับ string หรือ ทำให้ พารา ที่มี typeof string สามารถ +-*% กันได้  
-function bbb(a: number, b: number): number
-function bbb(a:string,b:string):string
-function bbb(a:unknown,b:unknown):unknown{
+function bbb8(a: number, b: number): number
+function bbb8(a:string,b:string):string
+function bbb8(a:unknown,b:unknown):unknown{
       if(typeof a=="number" && typeof b=="number"){
             return a+b
       }
@@ -54,5 +54,5 @@ function bbb(a:unknown,b:unknown):unknown{
       throw new Error("ไม่ถูก")
 }
 
-console.log(bbb(100,100))
-console.log(bbb("200","200"))
+console.log(bbb8(100,100)) 
+console.log(bbb8("200","200"))

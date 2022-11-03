@@ -25,7 +25,7 @@ function aaa5(name) {
 }
 console.log(aaa5());
 console.log(aaa5("bbb"));
-function bbb(a, b) {
+function bbb8(a, b) {
     if (typeof a == "number" && typeof b == "number") {
         return a + b;
     }
@@ -34,5 +34,5 @@ function bbb(a, b) {
     }
     throw new Error("ไม่ถูก");
 }
-console.log(bbb(100, 100));
-console.log(bbb("200", "200"));
+console.log(bbb8(100, 100));
+console.log(bbb8("200", "200"));
